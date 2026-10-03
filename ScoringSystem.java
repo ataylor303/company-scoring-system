@@ -11,9 +11,16 @@ public class ScoringSystem
         String CustomerTestimonial = input.nextLine();
         //Print statement asking for Customer Testimal Score input
 
-         System.out.print("Enter Customer Tesimonial Score");
-        String CustomerTestimonial = input.nextLine();
+        System.out.print("Enter Employee Morale Score");
+        String EmployeeMorale = input.nextLine();
+
+        System.out.print("Enter Profitabilty Score");
+        String Profitability = input.nextLine();
+
+        
+
+        
     }
-    }
+    
 
 }
