@@ -10,7 +10,7 @@ public class ScoringSystem
         Scanner input = new Scanner(System.in);
 
         //Intitionaized the weight variable for factors
-        double CTweight = 0.40;
+        double CSweight = 0.40;
         double EMweight = 0.20;
         double Pweight = 0.25;
         double RGweight = 0.10;
@@ -26,8 +26,8 @@ public class ScoringSystem
 
         
         //Asking for user input on Customer Testimonial Score 
-        System.out.print("Customer Testimonial Score: ");
-        double customertestimonial = input.nextDouble();
+        System.out.print("Customer satisfaction Score: ");
+        double customersatisfaction = input.nextDouble();
 
         //Asking user input on Employee Morale Score 
         System.out.print("Employee Morale Score: ");
@@ -49,12 +49,12 @@ public class ScoringSystem
 
         //Calculation for the Overall Company Score
        companyscore = 
-       (CTweight * customertestimonial) + (EMweight * employeemorale) + (Pweight * profitability) +
+       (CSweight * customersatisfaction) + (EMweight * employeemorale) + (Pweight * profitability) +
        (RGweight * revenuegrowth) + (SIweight * socialimpact);
 
         //Displaying the overall Company Score
         System.out.println();
-        System.out.println("This is your overall Company Score: " + companyscore + "/100");
+        System.out.println("                           Here is your Company Score: " + companyscore + "/100");
         
         //Closed Scanner
         input.close();
