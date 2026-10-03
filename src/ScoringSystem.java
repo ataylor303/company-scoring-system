@@ -1,3 +1,4 @@
+package src;
 //imported scanner to read user input
 import java.util.Scanner;
 
