@@ -28,6 +28,6 @@ Revenue growth is also vital to a company because it helps look at the company's
 The social impact aspect is what can also make a difference. This is how the community might see the company this is where a lot of potional customer can come into play. I weighted this the lowest because it can definitely affect a business, but on the lower spectrum, a handful of people don't care what companies stand for; they just want to buy their products no matter what. 
 
 ## How it Works
-Once the programmed is started the user will be pro,pted to enter a score for each factor out of 100. 
+Once the programmed is started the user will be prompted to enter a score for each factor out of 100. 
 The user will enter each score and the program will calculate the overall score for Amazon. 
 
