@@ -9,12 +9,15 @@ import java.util.Scanner;
          //Created a scanner
         Scanner input = new Scanner(System.in);
 
-        //Intistalized weight variable for factors
-        double CTWeight = 0.40;
-        double EMWeight = 0.20;
-        double PWeight = 0.25;
-        double GRWeight = 0.10;
-        double SIWeight = 0.05;
+        //Intitionaized the weight variable for factors
+        double CTweight = 0.40;
+        double EMweight = 0.20;
+        double Pweight = 0.25;
+        double GRweight = 0.10;
+        double SIweight = 0.05;
+
+        //Intitionaized the overall Company Score
+        double companyscore;
 
         //Welcoming Print Statement
         System.out.println("Welcome to the Amazon Scoring System !");
@@ -22,27 +25,37 @@ import java.util.Scanner;
         
         //Asking for user input on Customer Testimonial Score 
         System.out.print("Enter Customer Testimonial Score: ");
-        double CustomerTestimonial = input.nextLine();
+        double customertestimonial = input.nextDouble();
 
         //Asking user input on Employee Morale Score 
         System.out.print("Enter Employee Morale Score: ");
-        double EmployeeMorale = input.nextLine();
+        double employeemorale = input.nextDouble();
 
         //Asking user for input on Profitability Score
         System.out.print("Enter Profitability Score: ");
-        double Profitability = input.nextLine();
+        double profitability = input.nextDouble();
 
         //Asking for user input on Growth Revenue Score
         System.out.print("Enter Growth Revenue Score: ");
-        double GrowthRevenue = input.nextLine();
+        double growthrevenue = input.nextDouble();
         
         //Asking for user input for Social Impact Score
         System.out.print("Enter Social Impact Score: ");
-        double SocialImpact = input.nextLine();
+        double socialimpact = input.nextDouble();
         //Asking for user input for Social Impact Score
 
+
+
+       companyscore = 
+       (CTweight * customertestimonial) + (EMweight * employeemorale) +
+       (Pweight * profitability) + (GRweight * growthrevenue) +
+       (SIweight * socialimpact);
+       
+       
+
+
         //Displaying the overall Company Score
-        System.out.print("This is your overall Company Score: " + Com);
+        System.out.print("This is your overall Company Score: " + companyscore );
         
     }
     
