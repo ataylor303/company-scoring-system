@@ -25,8 +25,8 @@ public class ScoringSystem
         System.out.println();
 
         
-        //Asking for user input on Customer Testimonial Score 
-        System.out.print("Customer satisfaction Score: ");
+        //Asking for user input on Customer Satisfaction Score 
+        System.out.print("Customer Satisfaction Score: ");
         double customersatisfaction = input.nextDouble();
 
         //Asking user input on Employee Morale Score 
@@ -37,8 +37,8 @@ public class ScoringSystem
         System.out.print("Profitability Score: ");
         double profitability = input.nextDouble();
 
-        //Asking for user input on Growth Revenue Score
-        System.out.print("Growth Revenue Score: ");
+        //Asking for user input on Revenue Growth Score
+        System.out.print("Revenue Growth Score: ");
         double revenuegrowth = input.nextDouble();
         
         //Asking for user input for Social Impact Score
