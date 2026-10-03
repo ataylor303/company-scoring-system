@@ -16,6 +16,6 @@ A programmed scoring system that evaluates Amazon's performance using weighted b
 5. Social Impact = 5%
 
 ## How it Works
-Once the programmed is started the user will be pro,pted to enter a score for each factor out of 100. 
+Once the programmed is started the user will be prompted to enter a score for each factor out of 100. 
 The user will enter each score and the program will calculate the overall score for Amazon. 
 
