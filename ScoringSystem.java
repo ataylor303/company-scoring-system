@@ -1,37 +1,48 @@
-import java.util.Scanner;
 //imported scanner to read user input
-public class ScoringSystem 
+import java.util.Scanner;
+
+3public class ScoringSystem 
 {
 
     public static void main(String[] args) 
     {
+         //Created a scanner
+        Scanner input = new Scanner(System.in);
+
+        //Intistalized weight variable for factors
+        double CTWeight = 0.40;
+        double EMWeight = 0.20;
+        double PWeight = 0.25;
+        double GRWeight = 0.10;
+        double SIWeight = 0.05;
+
+        //Welcoming Print Statement
         System.out.println("Welcome to the Amazon Scoring System !");
 
-        Scanner input = new Scanner(System.in);
-        //Created a scanner
+        
+        //Asking for user input on Customer Testimonial Score 
         System.out.print("Enter Customer Testimonial Score: ");
-        String CustomerTestimonial = input.nextLine();
-        //Asking for user input for Customer Testimonial Score 
+        double CustomerTestimonial = input.nextLine();
 
+        //Asking user input on Employee Morale Score 
         System.out.print("Enter Employee Morale Score: ");
-        String EmployeeMorale = input.nextLine();
-        //Asking for user input for Customer Testimonial Score
+        double EmployeeMorale = input.nextLine();
 
+        //Asking user for input on Profitability Score
         System.out.print("Enter Profitability Score: ");
-        String Profitability = input.nextLine();
-        //Asking for user input for Profitability Testimonial Score
+        double Profitability = input.nextLine();
 
+        //Asking for user input on Growth Revenue Score
         System.out.print("Enter Growth Revenue Score: ");
-        String GrowthRevenue = input.nextLine();
-        //Asking for user input for Growth Revenue Score
-
+        double GrowthRevenue = input.nextLine();
+        
+        //Asking for user input for Social Impact Score
         System.out.print("Enter Social Impact Score: ");
-        String SocialImpact = input.nextLine();
+        double SocialImpact = input.nextLine();
         //Asking for user input for Social Impact Score
 
-        System.out.print("This is your overall Company Score: ");
-        String CompanyScore = input.nextLine();
         //Displaying the overall Company Score
+        System.out.print("This is your overall Company Score: " + Com);
         
     }
     
