@@ -17,15 +17,20 @@ A programmed scoring system that evaluates Amazon's performance using weighted b
 5. Social Impact = 5%
 
 ## Why?
-Customer satisfaction is what I believe is most important; it's what truly keeps a company in business. Amazon is especially known for its customer service. Prioritizing customers is a big concept in a company. The 40% weight didn't come out of nowhere; I first divided 100 by 5, then used that number as a baseline and made sure this factor's weight was higher than it. 
+**Customer Satisfaction**
+Customer satisfaction is most important; it's what truly keeps a company in business. Amazon is especially known for prioritizing it's customer. The 40% weight didn't come out of nowhere; I first divided 100 by 5, then used that number as a baseline of 20%. Since I believe customer satisfaction is the most important factor, I increased its weight significantly above that baseline.
 
-Profitability, I would say, is the second most important within a company because it ensures the company is able to stay in business as well as create new products and upgrade business aspects. The weight of 25% also came from the baseline number I talked about above, and then I decreased it a little. 
+**Profitability**
+Profitability is the second most important factor because it ensures that a company can continue operating and remain successful. It also allows the company to develop new products, make improvements, and invest in different areas of the business. Using the 20% baseline, I increased profitability to 25% because of its direct impact on the company’s long-term success.
 
-Employee morale is also very crucial in a business because a company needs workers to run a business and make sure everything is executed on time and in a fashionable order. The weight of 20% is based on the weight of profitability; I think employees are pretty important. 
+**Employee morale**
+Employee morale is crucial because a company depends on its employees to keep operations running and ensure work is completed efficiently and on time. Employees also have a direct impact on productivity and the overall success of the company. For this reason, employee morale receives a weight of 20%, keeping it at the original baseline.
 
-Revenue growth is also vital to a company because it helps look at the company's overall growth. This can help a company determine where they are doing well and poorly. The weight of 10% is from my opinion that it is half as important as Employee morale. 
+**Revenue Growth**
+Revenue growth is important because it shows how the company is growing financially over time. It can also help identify areas where the company is performing well and areas that may need improvement. Revenue growth receives a weight of 10%, which is half the weight of employee morale, because it plays a smaller role in the overall company score.
 
-The social impact aspect is what can also make a difference. This is how the community might see the company this is where a lot of potential customer can come into play. I weighted this the lowest because it can definitely affect a business, but on the lower spectrum, a handful of people don't care what companies stand for; they just want to buy their products no matter what. 
+**Social Impact**
+Social impact can affect how the community and potential customers view a company. A positive social impact can strengthen the company’s reputation and potentially attract more customers. However, it receives the lowest weight of 5% because it does not influence every customer equally. Some customers care strongly about what a company stands for, while others are primarily focused on the products or services the company provides.
 
 ## How it Works
 Once the programmed is started the user will be prompted to enter a score for each factor out of 100. 
