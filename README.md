@@ -18,8 +18,7 @@ A programmed scoring system that evaluates Amazon's performance using weighted b
 
 ## Why?
 **Customer Satisfaction
-**
-Customer satisfaction is most important; it's what truly keeps a company in business. Amazon is especially known for prioritizing it's customer. The 40% weight didn't come out of nowhere; I first divided 100 by 5, then used that number as a baseline of 20%. Since I believe customer satisfaction is the most important factor, I increased its weight significantly above that baseline.
+**Customer satisfaction is most important; it's what truly keeps a company in business. Amazon is especially known for prioritizing it's customer. The 40% weight didn't come out of nowhere; I first divided 100 by 5, then used that number as a baseline of 20%. Since I believe customer satisfaction is the most important factor, I increased its weight significantly above that baseline.
 
 **Profitability
 **
