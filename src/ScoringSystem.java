@@ -20,7 +20,7 @@ public class ScoringSystem
         //Intitionaized the overall Company Score
         double companyscore;
 
-        // Statement will let the ouser know how the scoring system works
+        // Print statement will let the user know how the scoring system works
         System.out.print("                                Amazon Company Scoring System\n");
         System.out.println("            Please enter a score from 0 to 100 for each of the following factors");
         System.out.println();
@@ -45,7 +45,6 @@ public class ScoringSystem
         //Asking for user input for Social Impact Score
         System.out.print("Social Impact Score: ");
         double socialimpact = input.nextDouble();
-        //Asking for user input for Social Impact Score
 
 
         //Calculation for the Overall Company Score
